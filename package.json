@@ -1,0 +1,16 @@
+{
+  "name": "javascript-es6-rockeseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Brunorodrigoss/javascript-es6-rockeseat.git",
+  "author": "Bruno <bruno.soares@dextra-sw.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./budle.js -w"
+  }
+}
